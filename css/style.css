@@ -93,7 +93,7 @@ header{
 
 .ytbox{
     flex: 1;
-    min-width: 30vw;
+    min-width: 200px;
     height: 50vw;
     max-height: 270px;
     max-width: 480px;
