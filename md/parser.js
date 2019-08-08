@@ -25,7 +25,10 @@ function getdata(){
   req.onload = function(){
     if (req.readyState == 4 && xmlhttp.status == 200) {
       var data = req.responseText;
-      document.getElementById("post-md") = marked(data);
+      var title = data.split(/\r\n|\r|\n/)[0].split(" ").shift().join(" ");
+      var doc = document.getElementById("post-md")
+      doc = marked(data);
+      doc.title = title;
     }
   }
 }
