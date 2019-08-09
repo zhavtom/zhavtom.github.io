@@ -2,7 +2,7 @@ function getdata(){
   var postid = location.pathname
 
   var req = new XMLHttpRequest();
-  var url = postid + ".md";
+  var url = postid + "/md/.md";
 
   req.open("GET", url)
   req.onload = function(){
