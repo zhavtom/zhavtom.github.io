@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="jp">
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let ghsrc = document.querySelectorAll(".gh-src");
+    for (i=0; i< ghsrc.length; i++) {
+        srcid = ghsrc[i].getAttribute("id");
+        srcurl = "https://github.com/ryx1024/resources/raw/master/" + srcid;
+        ghsrc[i].setAttribute("src", srcurl)
+    }
+}, false);
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +24,18 @@
     </script>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="apple-touch-icon" type="image/png" href="img/fav/icon180.png">
-    <link rel="icon" type="image/png" href="img/fav/icon192.png">
+    <link rel="apple-touch-icon" type="image/png" href="https://github.com/ryx1024/resources/raw/master/img/fav/icon180.png">
+    <link rel="icon" type="image/png" href="https://github.com/ryx1024/resources/raw/master/img/fav/icon192.png">
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/exly_banner.png" height="100" alt="excellay"></a>
+            <a href="index.html"><img class="gh-src" id="img/exly_banner.png" height="100" alt="excellay"></a>
         </div>
         <div class="contact">
-            <a href="https://discord.gg/v3zWGvx" target="_blank"><img src="img/disco_icon.png" height="64" alt="Discord"></a>
-            <a href="https://www.youtube.com/channel/UCeG4d44Y_lSppAC_clK1TxA" target="_blank"><img src="img/yt_icon.png" height="64" alt="YT"></a>
-            <a href="https://soundcloud.com/ryx1024" target="_blank"><img src="img/sc_icon.png" height="64" alt="SC"></a>
+            <a href="https://discord.gg/v3zWGvx" target="_blank"><img class="gh-src" id="img/disco_icon.png" height="64" alt="Discord"></a>
+            <a href="https://www.youtube.com/channel/UCeG4d44Y_lSppAC_clK1TxA" target="_blank"><img class="gh-src" id="img/yt_icon.png" height="64" alt="YT"></a>
+            <a href="https://soundcloud.com/ryx1024" target="_blank"><img class="gh-src" id="img/sc_icon.png" height="64" alt="SC"></a>
         </div>
     </header>
     <div class="main">
@@ -62,7 +72,7 @@
         <div class="about">
             <h1 class="catlabel">About</h1>
             <div class="about1">
-                <img class="about1img" src="img/exly_icon.png" alt="excellay">
+                <img class="gh-src" id="img/exly_icon.png" style="align-self: center;background-color: #012;border-radius: 32px;height: 240px;width: 240px;" alt="excellay">
                 <div class="about1text">
                     <h2>Excellay</h2>
                     平成生まれ。ある年の7月25日、初めて見たのは外の世界だった。<br>
