@@ -113,14 +113,6 @@ header{
     text-align: center;
 }
 
-.about1img{
-    align-self: center;
-    background-color: #012;
-    border-radius: 32px;
-    height: 240px;
-    width: 240px;
-}
-
 .about1text{
     max-width: 640px;
     width: 80vw;
