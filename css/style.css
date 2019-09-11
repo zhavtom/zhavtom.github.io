@@ -5,15 +5,31 @@ body{
 
 header{
     background-color: #012;
-}
-.logo{
+    padding: 5px;
     display: block;
     text-align: center;
-    margin: 0 auto;
+}
+.logo{
+    background-color: #eee;
+    border-radius: 15px;
+    width: 192px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.logo a{
+    color: #012;
+}
+
+.logo a:visited{
+    color: #012;
 }
 
 .contact{
-    margin: auto;
+    padding: 0px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -36,7 +52,7 @@ header{
     background-color: #012;
     max-width: 1280px;
     text-align: center;
-    color: #FFF;
+    color: #eee;
     padding: 20px;
 }
 
