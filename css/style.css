@@ -1,43 +1,36 @@
 body{
     margin: 0;
-    background-color: #eee
+    background-color: #012;
 }
 
 header{
-    background-color: #012;
-    padding: 5px;
+    background-color: #eee;
+    padding-bottom: 5px;
     display: block;
     text-align: center;
-}
-.logo{
-    background-color: #eee;
-    border-radius: 15px;
-    width: 192px;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-    margin: 5px auto;
-}
-
-.logo a{
-    color: #012;
-}
-
-.logo a:visited{
-    color: #012;
+    position: fixed;
+    width: 100%;
 }
 
 .contact{
-    padding: 0px;
+    background-color: #012;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact a{
+    padding: 4px;
 }
 
 .main{
-    padding: 0 16px 0 16px;
+    background-color: #eee;
+    padding: 75px 16px 15vh 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .infomation, .about{
@@ -76,13 +69,21 @@ header{
     line-height: 30px;
 }
 
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #eee;
+    width: 100%;
+}
+
 .footercopy{
     background-color: #012;
     height: 24px;
-    padding: 40px;
+    padding: 8px;
+    margin-top: 5px;
     text-align: center;
     color: #eee;
-    margin-top: 2px;
 }
 
 .info2{
