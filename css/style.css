@@ -13,15 +13,8 @@ header{
 }
 
 .contact{
-    background-color: #012;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.contact a{
     padding: 4px;
+    background-color: #012;
 }
 
 .main{
