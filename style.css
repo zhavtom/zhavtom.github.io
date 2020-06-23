@@ -1,0 +1,10 @@
+:root{
+    --main-bg-color: #2D353D;
+    --main-text-color: #F6F2E4;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: var(--main-bg-color);
+}
